@@ -1,0 +1,46 @@
+body {
+	background: #FF5500;
+}
+#wrapper {
+	display: block;
+	margin: 0 30% 0 30%;
+}
+#left {
+	width: 200px;
+	height: 200px;
+	-webkit-transform: skew(-14deg);
+	   -moz-transform: skew(-14deg);
+	     -o-transform: skew(-14deg);
+	background: #2BD69D;
+	float: left;
+	margin: 0 10px 0 0;
+	box-shadow: 10px 10px 5px #25302D;
+	border-radius: 10px;
+
+}
+
+#middle {
+	width: 200px;
+	height: 200px;
+	-webkit-transform: skew(-14deg);
+	   -moz-transform: skew(-14deg);
+	     -o-transform: skew(-14deg);
+	background: #2BD69D;
+	float: left;
+	margin: 0 10px 0 0;
+	box-shadow: 10px 10px 5px #25302D;
+	border-radius: 10px;
+}
+
+#right {
+	width: 200px;
+	height: 200px;
+	-webkit-transform: skew(-14deg);
+	   -moz-transform: skew(-14deg);
+	     -o-transform: skew(-14deg);
+	background: #2BD69D;
+	float: left;
+	margin: 0;
+	box-shadow: 10px 10px 5px #25302D;
+	border-radius: 10px;
+}
