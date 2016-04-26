@@ -3,11 +3,11 @@ body {
 }
 #wrapper {
 	display: block;
-	margin: 0 30% 0 30%;
+	margin: 20% 30% 0 30%;
 }
 #left {
-	width: 200px;
-	height: 200px;
+	width: 30%;
+	height: 30vh;
 	-webkit-transform: skew(-14deg);
 	   -moz-transform: skew(-14deg);
 	     -o-transform: skew(-14deg);
@@ -20,8 +20,8 @@ body {
 }
 
 #middle {
-	width: 200px;
-	height: 200px;
+	width: 30%;
+	height: 30vh;
 	-webkit-transform: skew(-14deg);
 	   -moz-transform: skew(-14deg);
 	     -o-transform: skew(-14deg);
@@ -33,8 +33,8 @@ body {
 }
 
 #right {
-	width: 200px;
-	height: 200px;
+	width: 30%;
+	height: 30vh;
 	-webkit-transform: skew(-14deg);
 	   -moz-transform: skew(-14deg);
 	     -o-transform: skew(-14deg);
@@ -43,4 +43,24 @@ body {
 	margin: 0;
 	box-shadow: 10px 10px 5px #25302D;
 	border-radius: 10px;
+}
+
+
+/* blog Landing styles */
+#postHolder {
+	width: 50%;
+	height: 20vh;
+	margin: 0 auto;
+
+}
+
+.post {
+	border: 1px solid black;
+	margin: 1%;
+}
+
+.post button {
+	margin: 0 auto;
+	width: 10%;
+	display: inherit;
 }

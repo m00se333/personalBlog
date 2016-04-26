@@ -3,6 +3,9 @@ html(lang="en")
 	head
 		title #{post.title}
 	body
-		section
-			h2 #{post.title}	
-			p #{post.body}
+		section(id="postHolder")
+			for post in posts
+				div.post
+					h2 #{post.title}
+					p #{post.body}
+					button Read More
