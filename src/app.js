@@ -28,7 +28,7 @@ app.get("/blog/:title?", function(req, res){
 	res.render("post", {post: post} );
 	}
 });
-debugger;
+
 app.get("/about", function(req, res){
 	res.send("<h1>About Page</h1>");
 })

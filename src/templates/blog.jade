@@ -1,4 +1,4 @@
-extends ./layout.jade
+extends ./layout
 
 block content
 	section(id="postHolder")
@@ -6,4 +6,5 @@ block content
 				div.post
 					h2 #{post.title}
 					p #{post.body}
-					button Read More
+					a(href="/blog/" + post.title)
+						button Read More

@@ -1,11 +1,8 @@
-//this is the individual blog post page
-doctype html
-html(lang="en")
-	head
-		title #{post.title}
-	body
-		section(id="postHolder")
-				div.post
-					h2 #{post.title}
-					p #{post.body}
-					p This is the actual post page itself.
+extends ./layout.jade
+
+block content
+	section
+		div.post
+			h2 #{post.title}
+			p #{post.body}
+			a(href="/blog") Click this to go back
