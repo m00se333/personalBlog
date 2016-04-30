@@ -57,10 +57,19 @@ body {
 .post {
 	border: 1px solid black;
 	margin: 1%;
+	
 }
 
 .post a  {
 	margin: 0 auto;
 	width: 10%;
 	display: inherit;
+}
+
+.post img {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
 }
