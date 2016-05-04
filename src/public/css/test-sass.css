@@ -1,0 +1,40 @@
+body {
+  background: #FF5500; }
+
+#wrapper {
+  display: block;
+  margin: 20% 30% 0 30%; }
+
+#left, #middle, #right {
+  width: 30%;
+  height: 30vh;
+  -webkit-transform: skew(-14deg);
+  -moz-transform: skew(-14deg);
+  -o-transform: skew(-14deg);
+  background: #2BD69D;
+  float: left;
+  margin: 0 10px 0 0;
+  box-shadow: 10px 10px 5px #25302D;
+  border-radius: 10px; }
+
+/* blog Landing styles */
+#postHolder {
+  width: 50%;
+  height: 20vh;
+  margin: 0 auto; }
+
+.post {
+  border: 1px solid black;
+  margin: 1%; }
+  .post a {
+    margin: 0 auto;
+    width: 10%;
+    display: inherit; }
+  .post img {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: block; }
+
+/*# sourceMappingURL=test-sass.css.map */
