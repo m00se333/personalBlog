@@ -3,12 +3,13 @@ extends ./layout.jade
 block content
 
 	section
-		div.post
+		div.singlePostPage
 			if ("image" in post)
 				each img in post.image
 					img(src="/static/img/"+img)
 				h2 #{post.title}
-				p #{post.body}
+				each para in post.body
+					p #{para}
 				a(href="/blog") Click this to go back
 			
 			else 
