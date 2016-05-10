@@ -1,12 +1,15 @@
 extends ./layout.jade
-
 block content
 
+	include ./partials/_nav.jade
+	
 	section
 		div.singlePostPage
 			if ("image" in post)
-				each img in post.image
-					img(src="/static/img/"+img)
+				div(class="slickSlides")
+					each img in post.image
+						div
+							img(src="/static/img/"+img)
 				h2 #{post.title}
 				each para in post.body
 					p #{para}
