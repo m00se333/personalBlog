@@ -30,11 +30,10 @@ app.get("/blog/:title?", function(req, res){
 });
 
 app.get("/about", function(req, res){
-	res.send("<h1>About Page</h1>");
-})
-
+	res.render("about");
+});
 app.get("/projects", function(req, res){
-	res.send("<h1>Projects Page</h1>")
+	res.render("projects")
 })
 
 app.listen(4000, function(){
