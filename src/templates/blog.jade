@@ -1,6 +1,8 @@
 extends ./layout
 block content
 
+	include ./partials/_nav.jade
+
 	section(id="postHolder")
 		for post in posts
 				div.post
