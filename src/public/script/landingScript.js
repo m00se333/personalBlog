@@ -15,12 +15,12 @@ $("#wrapper div").hover(function(){
 
 $("#navWrapper div").hover(function(){
 	$(this).css("background", "#CADED3")
-	if ($(this).attr("id") === "left") {
+	if ($(this).attr("id") === "leftNav") {
 		$(this).html("Blog");
 
-	} else if  ($(this).attr("id") === "middle") {	
+	} else if  ($(this).attr("id") === "middleNav") {	
 		$(this).html("About Me");
-	} else if ($(this).attr("id") === "right") {
+	} else if ($(this).attr("id") === "rightNav") {
 		$(this).html("Projects")
 	}
 }, function(){
