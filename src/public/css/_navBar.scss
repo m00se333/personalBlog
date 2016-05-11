@@ -5,6 +5,9 @@
   height: 10vh;
   background: black;
   margin:0 auto;
+  position: fixed;
+  top: 0;
+  z-index: 7;
      .navIcon {
       display: inline-block;
       width: 30%;
@@ -16,5 +19,9 @@
       float: left;
       border-radius: 5px;
       margin: 0.5% 1% 0.5% 2%;
+      text-align: center;
+      font-size: 1.7vw;
+      font-family: $cool-font;
+      line-height: 8vh;
   }
 }
