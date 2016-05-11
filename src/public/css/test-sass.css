@@ -108,7 +108,7 @@ img {
   #navWrapper .navIcon {
     display: inline-block;
     width: 30%;
-    height: 80%;
+    height: 70%;
     -webkit-transform: skew(-25deg);
     -moz-transform: skew(-25deg);
     -o-transform: skew(-25deg);
@@ -127,7 +127,8 @@ img {
   float: left;
   width: 50%;
   border: 1px solid black;
-  margin: 0; }
+  margin: 0;
+  font-size: 1vw; }
 
 #portrait {
   float: right;
@@ -139,6 +140,7 @@ img {
 #remainingPara {
   border: 1px solid black;
   margin: 0;
-  clear: both; }
+  clear: both;
+  font-size: 1vw; }
 
 /*# sourceMappingURL=test-sass.css.map */
