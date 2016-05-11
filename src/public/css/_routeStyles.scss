@@ -1,0 +1,8 @@
+/* Route Styles */
+#wrapper {
+  display: block;
+  margin: 20% 30% 0 30%;
+}
+#left, #middle, #right {
+  @include homeNav;
+}

@@ -1,0 +1,35 @@
+/* blog Landing styles */
+#postHolder {
+  width: 50%;
+  height: 20vh;
+  margin: 0 auto;
+} .post {
+  margin: 1% 1% 1% 1%;
+  position: relative;
+  overflow: hidden;
+  height: 20vh;
+  background: white;
+    a {
+    margin: 0;
+    width: 10%;
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    display: inline-block;
+    }
+    p, h2{
+      z-index: 3;
+      position: relative;
+    } .fadeBottom {
+      background: url(../img/blogPostFadeWhite.png) bottom center no-repeat;
+      position: absolute; 
+      bottom: 0; 
+      left: 0;
+      width: 100%; 
+      text-align: center; 
+      margin: 0; padding: 30px 0;
+      z-index: 4;
+      height: 100%;
+    }
+}

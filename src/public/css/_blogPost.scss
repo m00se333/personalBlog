@@ -1,0 +1,32 @@
+/* Single Blog Post Styles */
+.singlePostPage {
+    border: 1px solid black;
+    margin: 5% auto;
+    width: 75%;
+    position: relative;
+    display: block;
+    a {
+    text-align: center;
+    display: block;
+    }
+    p, h2{
+      z-index: 3;
+      position: relative;
+    }
+    
+}
+
+/* Slick Carousel Styling */
+.slickSlides{ 
+  display: none;
+  width: 50%;
+  } div {
+  margin: 1% auto;
+    } img {
+    height: 100%;
+    width: 100%;
+}
+.slickSlides.slick-initialized {
+  
+  display: block;
+} 
